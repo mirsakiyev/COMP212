@@ -1,0 +1,16 @@
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\bin\Debug\MenuTest.exe
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\bin\Debug\MenuTest.pdb
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.csprojResolveAssemblyReference.cache
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.MenuTestForm.resources
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.Properties.Resources.resources
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.csproj.GenerateResource.Cache
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.exe
+F:\Yinhua Li\CentennialCollege\2017Winter\COMP212\LectureNotes\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.pdb
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.exe
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.pdb
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\bin\Debug\MenuTest.exe
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\bin\Debug\MenuTest.pdb
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.csprojResolveAssemblyReference.cache
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.MenuTestForm.resources
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.Properties.Resources.resources
+C:\Users\yhli\COMP212\Week#2\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.csproj.GenerateResource.Cache
