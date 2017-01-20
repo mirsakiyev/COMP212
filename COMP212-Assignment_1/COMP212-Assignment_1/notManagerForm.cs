@@ -50,5 +50,34 @@ namespace COMP212_Assignment_1
         {
             Application.Exit();
         }
+
+        private void pubNotBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Step 1 - Hide the parent form
+                this.Hide();
+
+                // Step - 2 Instantiate an object for the form type
+                // you are going to next
+                pubNotForm publishNotification = new pubNotForm();
+
+                // Step - 3 Create a property in the next form that 
+                // we will use to piont to this form
+                // e.g. public AbilityGeneratorForm previousForm;
+
+                // Step 4 - Point this form to the parent form 
+                // property in the next form
+                publishNotification.previousForm = this;
+
+                // Step 5 - Show the next form
+                publishNotification.Show();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }

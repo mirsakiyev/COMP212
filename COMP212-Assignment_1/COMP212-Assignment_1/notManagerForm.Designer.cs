@@ -51,6 +51,7 @@
             this.pubNotBtn.TabIndex = 2;
             this.pubNotBtn.Text = "Publish Notification";
             this.pubNotBtn.UseVisualStyleBackColor = true;
+            this.pubNotBtn.Click += new System.EventHandler(this.pubNotBtn_Click);
             // 
             // exitBtn
             // 
@@ -66,12 +67,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(591, 204);
+            this.ClientSize = new System.Drawing.Size(582, 203);
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.pubNotBtn);
             this.Controls.Add(this.manSubBtn);
             this.Name = "notManagerForm";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Notification Manager";
             this.ResumeLayout(false);
 
         }

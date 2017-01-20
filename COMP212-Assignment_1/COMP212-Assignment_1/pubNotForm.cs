@@ -10,21 +10,15 @@ using System.Windows.Forms;
 
 namespace COMP212_Assignment_1
 {
-    public partial class manSubForm : Form
+    public partial class pubNotForm : Form
     {
         public notManagerForm previousForm;
-
-        public manSubForm()
+        public pubNotForm()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void exitBtn_Click(object sender, EventArgs e)
         {
             // Step 1 - Show the parent form
             this.previousForm.Show();
