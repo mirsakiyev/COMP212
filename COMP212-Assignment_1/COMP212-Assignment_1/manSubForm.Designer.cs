@@ -47,6 +47,7 @@
             this.emailCheckB.TabIndex = 0;
             this.emailCheckB.Text = "Message Sent by Email ";
             this.emailCheckB.UseVisualStyleBackColor = true;
+            this.emailCheckB.CheckedChanged += new System.EventHandler(this.emailCheckB_CheckedChanged);
             // 
             // mobileCheckB
             // 
@@ -57,9 +58,11 @@
             this.mobileCheckB.TabIndex = 1;
             this.mobileCheckB.Text = "Message Sent by Mobile";
             this.mobileCheckB.UseVisualStyleBackColor = true;
+            this.mobileCheckB.CheckedChanged += new System.EventHandler(this.mobileCheckB_CheckedChanged);
             // 
             // emailTextBox
             // 
+            this.emailTextBox.Enabled = false;
             this.emailTextBox.Location = new System.Drawing.Point(298, 32);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(199, 22);
@@ -68,6 +71,7 @@
             // 
             // mobileTextBox
             // 
+            this.mobileTextBox.Enabled = false;
             this.mobileTextBox.Location = new System.Drawing.Point(298, 89);
             this.mobileTextBox.Name = "mobileTextBox";
             this.mobileTextBox.Size = new System.Drawing.Size(199, 22);
@@ -91,6 +95,7 @@
             this.unsubscribeBtn.TabIndex = 5;
             this.unsubscribeBtn.Text = "Unsubscribe";
             this.unsubscribeBtn.UseVisualStyleBackColor = true;
+            this.unsubscribeBtn.Click += new System.EventHandler(this.unsubscribeBtn_Click);
             // 
             // cancelBtn
             // 
@@ -108,9 +113,8 @@
             this.invalidEmailLabel.ForeColor = System.Drawing.Color.Red;
             this.invalidEmailLabel.Location = new System.Drawing.Point(298, 58);
             this.invalidEmailLabel.Name = "invalidEmailLabel";
-            this.invalidEmailLabel.Size = new System.Drawing.Size(134, 17);
+            this.invalidEmailLabel.Size = new System.Drawing.Size(0, 17);
             this.invalidEmailLabel.TabIndex = 7;
-            this.invalidEmailLabel.Text = "Invalid Email Format";
             this.invalidEmailLabel.Visible = false;
             // 
             // manSubForm
