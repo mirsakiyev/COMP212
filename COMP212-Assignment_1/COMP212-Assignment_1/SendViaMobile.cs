@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Aslan Mirsakiyev
+// COMP-212 Assignment 1
+// 20 of January 2017
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

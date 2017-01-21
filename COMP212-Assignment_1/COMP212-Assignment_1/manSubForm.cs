@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Aslan Mirsakiyev
+// COMP-212 Assignment 1
+// 20 of January 2017
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,7 +34,6 @@ namespace COMP212_Assignment_1
         {
             InitializeComponent();
         }
-
 
 
         private void textBox1_TextChanged(object sender, EventArgs e)
