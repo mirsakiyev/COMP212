@@ -35,6 +35,7 @@
             this.subscribeBtn = new System.Windows.Forms.Button();
             this.unsubscribeBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
+            this.invalidEmailLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // emailCheckB
@@ -50,7 +51,7 @@
             // mobileCheckB
             // 
             this.mobileCheckB.AutoSize = true;
-            this.mobileCheckB.Location = new System.Drawing.Point(78, 82);
+            this.mobileCheckB.Location = new System.Drawing.Point(78, 90);
             this.mobileCheckB.Name = "mobileCheckB";
             this.mobileCheckB.Size = new System.Drawing.Size(184, 21);
             this.mobileCheckB.TabIndex = 1;
@@ -67,7 +68,7 @@
             // 
             // mobileTextBox
             // 
-            this.mobileTextBox.Location = new System.Drawing.Point(298, 81);
+            this.mobileTextBox.Location = new System.Drawing.Point(298, 89);
             this.mobileTextBox.Name = "mobileTextBox";
             this.mobileTextBox.Size = new System.Drawing.Size(199, 22);
             this.mobileTextBox.TabIndex = 3;
@@ -80,6 +81,7 @@
             this.subscribeBtn.TabIndex = 4;
             this.subscribeBtn.Text = "Subscribe";
             this.subscribeBtn.UseVisualStyleBackColor = true;
+            this.subscribeBtn.Click += new System.EventHandler(this.subscribeBtn_Click);
             // 
             // unsubscribeBtn
             // 
@@ -100,11 +102,23 @@
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
+            // invalidEmailLabel
+            // 
+            this.invalidEmailLabel.AutoSize = true;
+            this.invalidEmailLabel.ForeColor = System.Drawing.Color.Red;
+            this.invalidEmailLabel.Location = new System.Drawing.Point(298, 58);
+            this.invalidEmailLabel.Name = "invalidEmailLabel";
+            this.invalidEmailLabel.Size = new System.Drawing.Size(134, 17);
+            this.invalidEmailLabel.TabIndex = 7;
+            this.invalidEmailLabel.Text = "Invalid Email Format";
+            this.invalidEmailLabel.Visible = false;
+            // 
             // manSubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 203);
+            this.Controls.Add(this.invalidEmailLabel);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.unsubscribeBtn);
             this.Controls.Add(this.subscribeBtn);
@@ -129,5 +143,6 @@
         private System.Windows.Forms.Button subscribeBtn;
         private System.Windows.Forms.Button unsubscribeBtn;
         private System.Windows.Forms.Button cancelBtn;
+        private System.Windows.Forms.Label invalidEmailLabel;
     }
 }

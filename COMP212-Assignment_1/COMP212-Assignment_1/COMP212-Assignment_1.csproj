@@ -66,6 +66,7 @@
     <Compile Include="pubNotForm.Designer.cs">
       <DependentUpon>pubNotForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SendViaEmail.cs" />
     <EmbeddedResource Include="manSubForm.resx">
       <DependentUpon>manSubForm.cs</DependentUpon>
     </EmbeddedResource>

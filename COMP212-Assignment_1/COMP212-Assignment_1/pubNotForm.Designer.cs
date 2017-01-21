@@ -58,6 +58,7 @@
             this.publishBtn.TabIndex = 2;
             this.publishBtn.Text = "Publish";
             this.publishBtn.UseVisualStyleBackColor = true;
+            this.publishBtn.Click += new System.EventHandler(this.publishBtn_Click);
             // 
             // exitBtn
             // 
