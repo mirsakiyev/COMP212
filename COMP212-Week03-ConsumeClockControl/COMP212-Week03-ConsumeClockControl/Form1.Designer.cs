@@ -57,7 +57,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.userControl11);
             this.Name = "Form1";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clock";
             this.ResumeLayout(false);
