@@ -60,7 +60,7 @@
             this.usernameTextBox.Font = new System.Drawing.Font("Courier New", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameTextBox.Location = new System.Drawing.Point(157, 13);
             this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(164, 27);
+            this.usernameTextBox.Size = new System.Drawing.Size(206, 27);
             this.usernameTextBox.TabIndex = 2;
             // 
             // pwdTextBox
@@ -68,14 +68,15 @@
             this.pwdTextBox.Font = new System.Drawing.Font("Courier New", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pwdTextBox.Location = new System.Drawing.Point(157, 55);
             this.pwdTextBox.Name = "pwdTextBox";
-            this.pwdTextBox.Size = new System.Drawing.Size(164, 27);
+            this.pwdTextBox.Size = new System.Drawing.Size(206, 27);
             this.pwdTextBox.TabIndex = 3;
+            this.pwdTextBox.UseSystemPasswordChar = true;
             // 
             // userControlForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 100);
+            this.ClientSize = new System.Drawing.Size(383, 100);
             this.Controls.Add(this.pwdTextBox);
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.pwdLbl);
