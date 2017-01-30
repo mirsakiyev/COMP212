@@ -42,6 +42,8 @@
             this.desertPriceListBox = new System.Windows.Forms.ListBox();
             this.discardBtn = new System.Windows.Forms.Button();
             this.submitBtn = new System.Windows.Forms.Button();
+            this.billTextBox = new System.Windows.Forms.TextBox();
+            this.yourBillLbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // beverageListBox
@@ -49,6 +51,7 @@
             this.beverageListBox.FormattingEnabled = true;
             this.beverageListBox.ItemHeight = 16;
             this.beverageListBox.Items.AddRange(new object[] {
+            "",
             "Soda",
             "Tea",
             "Coffee",
@@ -57,7 +60,7 @@
             "Milk"});
             this.beverageListBox.Location = new System.Drawing.Point(70, 32);
             this.beverageListBox.Name = "beverageListBox";
-            this.beverageListBox.Size = new System.Drawing.Size(138, 100);
+            this.beverageListBox.Size = new System.Drawing.Size(138, 116);
             this.beverageListBox.TabIndex = 1;
             // 
             // beveragePriceListBox
@@ -66,6 +69,7 @@
             this.beveragePriceListBox.FormattingEnabled = true;
             this.beveragePriceListBox.ItemHeight = 16;
             this.beveragePriceListBox.Items.AddRange(new object[] {
+            "",
             "$1.95",
             "$1.50",
             "$1.25",
@@ -74,7 +78,7 @@
             "$1.50"});
             this.beveragePriceListBox.Location = new System.Drawing.Point(12, 32);
             this.beveragePriceListBox.Name = "beveragePriceListBox";
-            this.beveragePriceListBox.Size = new System.Drawing.Size(52, 100);
+            this.beveragePriceListBox.Size = new System.Drawing.Size(52, 116);
             this.beveragePriceListBox.TabIndex = 2;
             // 
             // beverageLbl
@@ -226,6 +230,7 @@
             this.discardBtn.TabIndex = 13;
             this.discardBtn.Text = "Discard";
             this.discardBtn.UseVisualStyleBackColor = true;
+            this.discardBtn.Click += new System.EventHandler(this.discardBtn_Click);
             // 
             // submitBtn
             // 
@@ -235,12 +240,32 @@
             this.submitBtn.TabIndex = 14;
             this.submitBtn.Text = "Submit";
             this.submitBtn.UseVisualStyleBackColor = true;
+            this.submitBtn.Click += new System.EventHandler(this.submitBtn_Click);
+            // 
+            // billTextBox
+            // 
+            this.billTextBox.Location = new System.Drawing.Point(256, 365);
+            this.billTextBox.Name = "billTextBox";
+            this.billTextBox.ReadOnly = true;
+            this.billTextBox.Size = new System.Drawing.Size(100, 22);
+            this.billTextBox.TabIndex = 15;
+            // 
+            // yourBillLbl
+            // 
+            this.yourBillLbl.AutoSize = true;
+            this.yourBillLbl.Location = new System.Drawing.Point(192, 368);
+            this.yourBillLbl.Name = "yourBillLbl";
+            this.yourBillLbl.Size = new System.Drawing.Size(60, 17);
+            this.yourBillLbl.TabIndex = 16;
+            this.yourBillLbl.Text = "Your Bill";
             // 
             // BillCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(556, 399);
+            this.Controls.Add(this.yourBillLbl);
+            this.Controls.Add(this.billTextBox);
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.discardBtn);
             this.Controls.Add(this.desertPriceListBox);
@@ -279,6 +304,8 @@
         private System.Windows.Forms.ListBox desertPriceListBox;
         private System.Windows.Forms.Button discardBtn;
         private System.Windows.Forms.Button submitBtn;
+        private System.Windows.Forms.TextBox billTextBox;
+        private System.Windows.Forms.Label yourBillLbl;
     }
 }
 
