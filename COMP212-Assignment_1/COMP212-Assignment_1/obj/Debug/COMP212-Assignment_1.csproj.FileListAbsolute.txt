@@ -1,0 +1,11 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\bin\Debug\COMP212-Assignment_1.exe.config
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\bin\Debug\COMP212-Assignment_1.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\bin\Debug\COMP212-Assignment_1.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212_Assignment_1.notManagerForm.resources
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212_Assignment_1.Properties.Resources.resources
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212-Assignment_1.csproj.GenerateResource.Cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212-Assignment_1.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212-Assignment_1.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212-Assignment_1.csprojResolveAssemblyReference.cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212_Assignment_1.manSubForm.resources
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment_1\COMP212-Assignment_1\obj\Debug\COMP212_Assignment_1.pubNotForm.resources

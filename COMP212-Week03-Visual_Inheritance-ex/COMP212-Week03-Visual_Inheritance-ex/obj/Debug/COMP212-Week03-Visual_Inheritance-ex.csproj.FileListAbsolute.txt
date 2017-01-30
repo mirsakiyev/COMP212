@@ -1,0 +1,9 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\bin\Debug\COMP212-Week03-Visual_Inheritance-ex.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\obj\Debug\COMP212_Week03_Visual_Inheritance_ex.Properties.Resources.resources
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\obj\Debug\COMP212-Week03-Visual_Inheritance-ex.csproj.GenerateResource.Cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\obj\Debug\COMP212-Week03-Visual_Inheritance-ex.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\obj\Debug\COMP212_Week03_Visual_Inheritance_ex.BaseForm.resources
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\bin\Debug\COMP212-Week03-Visual_Inheritance-ex.dll.config
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\bin\Debug\COMP212-Week03-Visual_Inheritance-ex.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\obj\Debug\COMP212-Week03-Visual_Inheritance-ex.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week03-Visual_Inheritance-ex\COMP212-Week03-Visual_Inheritance-ex\obj\Debug\COMP212-Week03-Visual_Inheritance-ex.csprojResolveAssemblyReference.cache

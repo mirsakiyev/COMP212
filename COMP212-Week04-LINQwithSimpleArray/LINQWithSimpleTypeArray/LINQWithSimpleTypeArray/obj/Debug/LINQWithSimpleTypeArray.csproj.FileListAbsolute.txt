@@ -1,0 +1,5 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week04\LINQWithSimpleTypeArray\LINQWithSimpleTypeArray\bin\Debug\LINQWithSimpleTypeArray.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week04\LINQWithSimpleTypeArray\LINQWithSimpleTypeArray\bin\Debug\LINQWithSimpleTypeArray.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week04\LINQWithSimpleTypeArray\LINQWithSimpleTypeArray\obj\Debug\LINQWithSimpleTypeArray.csprojResolveAssemblyReference.cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week04\LINQWithSimpleTypeArray\LINQWithSimpleTypeArray\obj\Debug\LINQWithSimpleTypeArray.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week04\LINQWithSimpleTypeArray\LINQWithSimpleTypeArray\obj\Debug\LINQWithSimpleTypeArray.pdb
