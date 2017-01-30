@@ -146,7 +146,7 @@ namespace Exercise
                     break;
             }
 
-            // calculating taxes
+            // calculating taxes(13%)
             tax = (beveragePrice + appetizerPrice + mainCoursePrice + desertPrice) * 13 / 100;
 
             // calculating final bill
@@ -156,13 +156,12 @@ namespace Exercise
 
         private void discardBtn_Click(object sender, EventArgs e)
         {
-
-            //BillCalculator form = new BillCalculator();
-            //form.ResetText();
-            //beverageListBox.ResetText();
-            //beverageListBox.Refresh();
-            //beverageListBox.Update();
-            //beverageListBox.Items.Clear();
+            // reset all list boxes
+            beverageListBox.ClearSelected();
+            appetizerListBox.ClearSelected();
+            mainCourseListBox.ClearSelected();
+            desertListBox.ClearSelected();
+            billTextBox.Text = "$0";
         }
 
         private void toolStripSplitButton1_ButtonClick(object sender, EventArgs e)

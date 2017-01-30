@@ -62,7 +62,7 @@
             "Mineral Water",
             "Juice",
             "Milk"});
-            this.beverageListBox.Location = new System.Drawing.Point(137, 38);
+            this.beverageListBox.Location = new System.Drawing.Point(86, 42);
             this.beverageListBox.Name = "beverageListBox";
             this.beverageListBox.Size = new System.Drawing.Size(122, 106);
             this.beverageListBox.TabIndex = 1;
@@ -81,7 +81,7 @@
             "$2.95",
             "$2.50",
             "$1.50"});
-            this.beveragePriceListBox.Location = new System.Drawing.Point(79, 39);
+            this.beveragePriceListBox.Location = new System.Drawing.Point(28, 43);
             this.beveragePriceListBox.Name = "beveragePriceListBox";
             this.beveragePriceListBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.beveragePriceListBox.Size = new System.Drawing.Size(52, 106);
@@ -91,7 +91,7 @@
             // 
             this.beverageLbl.AutoSize = true;
             this.beverageLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.beverageLbl.Location = new System.Drawing.Point(132, 10);
+            this.beverageLbl.Location = new System.Drawing.Point(81, 14);
             this.beverageLbl.Name = "beverageLbl";
             this.beverageLbl.Size = new System.Drawing.Size(93, 25);
             this.beverageLbl.TabIndex = 3;
@@ -101,7 +101,7 @@
             // 
             this.appetizerLbl.AutoSize = true;
             this.appetizerLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.appetizerLbl.Location = new System.Drawing.Point(365, 10);
+            this.appetizerLbl.Location = new System.Drawing.Point(314, 14);
             this.appetizerLbl.Name = "appetizerLbl";
             this.appetizerLbl.Size = new System.Drawing.Size(98, 25);
             this.appetizerLbl.TabIndex = 4;
@@ -122,7 +122,7 @@
             "$10.95",
             "$12.95",
             "$6.95"});
-            this.appetizerPriceListBox.Location = new System.Drawing.Point(313, 39);
+            this.appetizerPriceListBox.Location = new System.Drawing.Point(262, 43);
             this.appetizerPriceListBox.Name = "appetizerPriceListBox";
             this.appetizerPriceListBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.appetizerPriceListBox.Size = new System.Drawing.Size(52, 123);
@@ -141,7 +141,7 @@
             "Mushroom Caps",
             "Shrimp Cocktail",
             "Chips and Salsa"});
-            this.appetizerListBox.Location = new System.Drawing.Point(371, 39);
+            this.appetizerListBox.Location = new System.Drawing.Point(320, 43);
             this.appetizerListBox.Name = "appetizerListBox";
             this.appetizerListBox.Size = new System.Drawing.Size(137, 123);
             this.appetizerListBox.TabIndex = 6;
@@ -150,7 +150,7 @@
             // 
             this.mainCourseLbl.AutoSize = true;
             this.mainCourseLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainCourseLbl.Location = new System.Drawing.Point(132, 157);
+            this.mainCourseLbl.Location = new System.Drawing.Point(81, 161);
             this.mainCourseLbl.Name = "mainCourseLbl";
             this.mainCourseLbl.Size = new System.Drawing.Size(127, 25);
             this.mainCourseLbl.TabIndex = 7;
@@ -173,7 +173,7 @@
             "$18.95",
             "$13.95",
             "$14.95"});
-            this.mainCoursePriceListBox.Location = new System.Drawing.Point(79, 187);
+            this.mainCoursePriceListBox.Location = new System.Drawing.Point(28, 191);
             this.mainCoursePriceListBox.Name = "mainCoursePriceListBox";
             this.mainCoursePriceListBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.mainCoursePriceListBox.Size = new System.Drawing.Size(52, 157);
@@ -194,7 +194,7 @@
             "Shrimp Scampi",
             "Turkey Dinner",
             "Stuffed Chicken"});
-            this.mainCourseListBox.Location = new System.Drawing.Point(137, 187);
+            this.mainCourseListBox.Location = new System.Drawing.Point(86, 191);
             this.mainCourseListBox.Name = "mainCourseListBox";
             this.mainCourseListBox.Size = new System.Drawing.Size(122, 157);
             this.mainCourseListBox.TabIndex = 9;
@@ -203,7 +203,7 @@
             // 
             this.desertLbl.AutoSize = true;
             this.desertLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.desertLbl.Location = new System.Drawing.Point(376, 174);
+            this.desertLbl.Location = new System.Drawing.Point(325, 178);
             this.desertLbl.Name = "desertLbl";
             this.desertLbl.Size = new System.Drawing.Size(67, 25);
             this.desertLbl.TabIndex = 10;
@@ -220,7 +220,7 @@
             "Carrot Pie",
             "Mud Pie",
             "Apple Crisp"});
-            this.desertListBox.Location = new System.Drawing.Point(371, 204);
+            this.desertListBox.Location = new System.Drawing.Point(320, 208);
             this.desertListBox.Name = "desertListBox";
             this.desertListBox.Size = new System.Drawing.Size(137, 89);
             this.desertListBox.TabIndex = 11;
@@ -238,7 +238,7 @@
             "$5.95",
             "$4.95",
             "$5.95"});
-            this.desertPriceListBox.Location = new System.Drawing.Point(313, 204);
+            this.desertPriceListBox.Location = new System.Drawing.Point(262, 208);
             this.desertPriceListBox.Name = "desertPriceListBox";
             this.desertPriceListBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.desertPriceListBox.Size = new System.Drawing.Size(52, 89);
@@ -247,7 +247,7 @@
             // discardBtn
             // 
             this.discardBtn.BackColor = System.Drawing.Color.MistyRose;
-            this.discardBtn.Location = new System.Drawing.Point(313, 308);
+            this.discardBtn.Location = new System.Drawing.Point(262, 312);
             this.discardBtn.Name = "discardBtn";
             this.discardBtn.Size = new System.Drawing.Size(70, 37);
             this.discardBtn.TabIndex = 13;
@@ -258,7 +258,7 @@
             // submitBtn
             // 
             this.submitBtn.BackColor = System.Drawing.Color.LimeGreen;
-            this.submitBtn.Location = new System.Drawing.Point(389, 308);
+            this.submitBtn.Location = new System.Drawing.Point(338, 312);
             this.submitBtn.Name = "submitBtn";
             this.submitBtn.Size = new System.Drawing.Size(119, 37);
             this.submitBtn.TabIndex = 14;
@@ -269,17 +269,18 @@
             // billTextBox
             // 
             this.billTextBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.billTextBox.Location = new System.Drawing.Point(408, 369);
+            this.billTextBox.Location = new System.Drawing.Point(357, 373);
             this.billTextBox.Name = "billTextBox";
             this.billTextBox.ReadOnly = true;
             this.billTextBox.Size = new System.Drawing.Size(100, 30);
             this.billTextBox.TabIndex = 15;
+            this.billTextBox.Text = "$0";
             // 
             // yourBillLbl
             // 
             this.yourBillLbl.AutoSize = true;
             this.yourBillLbl.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yourBillLbl.Location = new System.Drawing.Point(315, 372);
+            this.yourBillLbl.Location = new System.Drawing.Point(264, 376);
             this.yourBillLbl.Name = "yourBillLbl";
             this.yourBillLbl.Size = new System.Drawing.Size(87, 23);
             this.yourBillLbl.TabIndex = 16;
@@ -293,7 +294,7 @@
             this.statusStrip1.Location = new System.Drawing.Point(0, 423);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(590, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(486, 26);
             this.statusStrip1.Stretch = false;
             this.statusStrip1.TabIndex = 17;
             this.statusStrip1.Text = "statusStrip";
@@ -313,7 +314,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(590, 449);
+            this.ClientSize = new System.Drawing.Size(486, 449);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.yourBillLbl);
             this.Controls.Add(this.billTextBox);
