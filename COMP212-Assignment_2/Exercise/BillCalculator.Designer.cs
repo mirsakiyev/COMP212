@@ -39,8 +39,8 @@
             this.mainCoursePriceListBox = new System.Windows.Forms.ListBox();
             this.mainCourseListBox = new System.Windows.Forms.ListBox();
             this.desertLbl = new System.Windows.Forms.Label();
-            this.desertListBox = new System.Windows.Forms.ListBox();
-            this.desertPriceListBox = new System.Windows.Forms.ListBox();
+            this.dessertListBox = new System.Windows.Forms.ListBox();
+            this.dessertPriceListBox = new System.Windows.Forms.ListBox();
             this.discardBtn = new System.Windows.Forms.Button();
             this.submitBtn = new System.Windows.Forms.Button();
             this.billTextBox = new System.Windows.Forms.TextBox();
@@ -205,44 +205,44 @@
             this.desertLbl.Font = new System.Drawing.Font("Bradley Hand ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.desertLbl.Location = new System.Drawing.Point(325, 178);
             this.desertLbl.Name = "desertLbl";
-            this.desertLbl.Size = new System.Drawing.Size(67, 25);
+            this.desertLbl.Size = new System.Drawing.Size(77, 25);
             this.desertLbl.TabIndex = 10;
-            this.desertLbl.Text = "Desert";
+            this.desertLbl.Text = "Dessert";
             // 
-            // desertListBox
+            // dessertListBox
             // 
-            this.desertListBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.desertListBox.FormattingEnabled = true;
-            this.desertListBox.ItemHeight = 17;
-            this.desertListBox.Items.AddRange(new object[] {
+            this.dessertListBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dessertListBox.FormattingEnabled = true;
+            this.dessertListBox.ItemHeight = 17;
+            this.dessertListBox.Items.AddRange(new object[] {
             "Apple Pie",
             "Sundae",
             "Carrot Pie",
             "Mud Pie",
             "Apple Crisp"});
-            this.desertListBox.Location = new System.Drawing.Point(320, 208);
-            this.desertListBox.Name = "desertListBox";
-            this.desertListBox.Size = new System.Drawing.Size(137, 89);
-            this.desertListBox.TabIndex = 11;
+            this.dessertListBox.Location = new System.Drawing.Point(320, 208);
+            this.dessertListBox.Name = "dessertListBox";
+            this.dessertListBox.Size = new System.Drawing.Size(137, 89);
+            this.dessertListBox.TabIndex = 11;
             // 
-            // desertPriceListBox
+            // dessertPriceListBox
             // 
-            this.desertPriceListBox.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.desertPriceListBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.desertPriceListBox.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.desertPriceListBox.FormattingEnabled = true;
-            this.desertPriceListBox.ItemHeight = 17;
-            this.desertPriceListBox.Items.AddRange(new object[] {
+            this.dessertPriceListBox.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.dessertPriceListBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dessertPriceListBox.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.dessertPriceListBox.FormattingEnabled = true;
+            this.dessertPriceListBox.ItemHeight = 17;
+            this.dessertPriceListBox.Items.AddRange(new object[] {
             "$5.95",
             "$3.95",
             "$5.95",
             "$4.95",
             "$5.95"});
-            this.desertPriceListBox.Location = new System.Drawing.Point(262, 208);
-            this.desertPriceListBox.Name = "desertPriceListBox";
-            this.desertPriceListBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.desertPriceListBox.Size = new System.Drawing.Size(52, 89);
-            this.desertPriceListBox.TabIndex = 12;
+            this.dessertPriceListBox.Location = new System.Drawing.Point(262, 208);
+            this.dessertPriceListBox.Name = "dessertPriceListBox";
+            this.dessertPriceListBox.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.dessertPriceListBox.Size = new System.Drawing.Size(52, 89);
+            this.dessertPriceListBox.TabIndex = 12;
             // 
             // discardBtn
             // 
@@ -320,8 +320,8 @@
             this.Controls.Add(this.billTextBox);
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.discardBtn);
-            this.Controls.Add(this.desertPriceListBox);
-            this.Controls.Add(this.desertListBox);
+            this.Controls.Add(this.dessertPriceListBox);
+            this.Controls.Add(this.dessertListBox);
             this.Controls.Add(this.desertLbl);
             this.Controls.Add(this.mainCourseListBox);
             this.Controls.Add(this.mainCoursePriceListBox);
@@ -359,8 +359,8 @@
         private System.Windows.Forms.ListBox mainCoursePriceListBox;
         private System.Windows.Forms.ListBox mainCourseListBox;
         private System.Windows.Forms.Label desertLbl;
-        private System.Windows.Forms.ListBox desertListBox;
-        private System.Windows.Forms.ListBox desertPriceListBox;
+        private System.Windows.Forms.ListBox dessertListBox;
+        private System.Windows.Forms.ListBox dessertPriceListBox;
         private System.Windows.Forms.Button discardBtn;
         private System.Windows.Forms.Button submitBtn;
         private System.Windows.Forms.TextBox billTextBox;

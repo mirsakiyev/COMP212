@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * COMP-212 Assignmnet - Exercise 1
+ * Restaurant Bill Calculator
+ * Author : Aslan Mirsakiyev
+ * Date : 30 of January
+ * 
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,7 +30,7 @@ namespace Exercise
             decimal beveragePrice = 0M;
             decimal appetizerPrice = 0M;
             decimal mainCoursePrice = 0M;
-            decimal desertPrice = 0M;
+            decimal dessertPrice = 0M;
             decimal tax = 0M;
             decimal bill =0M;
 
@@ -126,20 +133,20 @@ namespace Exercise
             }
 
             // swtich case for desert list box
-            switch (desertListBox.Text)
+            switch (dessertListBox.Text)
             {
                 case "Apple Pie":
                 case "Carrot Pie":
                 case "Apple Crisp":
-                    desertPrice = 5.95M;
+                    dessertPrice = 5.95M;
                     break;
 
                 case "Sundae":
-                    desertPrice = 3.95M;
+                    dessertPrice = 3.95M;
                     break;
 
                 case "Mud Pie":
-                    desertPrice = 4.95M;
+                    dessertPrice = 4.95M;
                     break;
 
                 default:
@@ -147,10 +154,10 @@ namespace Exercise
             }
 
             // calculating taxes(13%)
-            tax = (beveragePrice + appetizerPrice + mainCoursePrice + desertPrice) * 13 / 100;
+            tax = (beveragePrice + appetizerPrice + mainCoursePrice + dessertPrice) * 13 / 100;
 
             // calculating final bill
-            bill = beveragePrice + appetizerPrice + mainCoursePrice + desertPrice+tax;          
+            bill = beveragePrice + appetizerPrice + mainCoursePrice + dessertPrice + tax;          
             billTextBox.Text = "$"+Convert.ToString(Math.Round(bill, 2));
         }
 
@@ -160,7 +167,7 @@ namespace Exercise
             beverageListBox.ClearSelected();
             appetizerListBox.ClearSelected();
             mainCourseListBox.ClearSelected();
-            desertListBox.ClearSelected();
+            dessertListBox.ClearSelected();
             billTextBox.Text = "$0";
         }
 
