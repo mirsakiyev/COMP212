@@ -156,12 +156,18 @@ namespace Exercise
 
         private void discardBtn_Click(object sender, EventArgs e)
         {
+
+            //BillCalculator form = new BillCalculator();
+            //form.ResetText();
+            //beverageListBox.ResetText();
+            //beverageListBox.Refresh();
+            //beverageListBox.Update();
             //beverageListBox.Items.Clear();
         }
 
         private void toolStripSplitButton1_ButtonClick(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/mirsakiyev");
+            System.Diagnostics.Process.Start("https://github.com/mirsakiyev/COMP212/tree/master/COMP212-Assignment_2");
         }
     }
 }
