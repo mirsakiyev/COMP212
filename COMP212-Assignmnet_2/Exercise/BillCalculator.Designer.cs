@@ -51,7 +51,6 @@
             this.beverageListBox.FormattingEnabled = true;
             this.beverageListBox.ItemHeight = 16;
             this.beverageListBox.Items.AddRange(new object[] {
-            "",
             "Soda",
             "Tea",
             "Coffee",
@@ -69,7 +68,6 @@
             this.beveragePriceListBox.FormattingEnabled = true;
             this.beveragePriceListBox.ItemHeight = 16;
             this.beveragePriceListBox.Items.AddRange(new object[] {
-            "",
             "$1.95",
             "$1.50",
             "$1.25",
