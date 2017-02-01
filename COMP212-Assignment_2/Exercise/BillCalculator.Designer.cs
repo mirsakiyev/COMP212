@@ -47,6 +47,7 @@
             this.yourBillLbl = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripStatusLbl = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -290,7 +291,8 @@
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSplitButton1});
+            this.toolStripSplitButton1,
+            this.toolStripStatusLbl});
             this.statusStrip1.Location = new System.Drawing.Point(0, 423);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
@@ -308,6 +310,13 @@
             this.toolStripSplitButton1.Size = new System.Drawing.Size(39, 24);
             this.toolStripSplitButton1.Text = "toolStripSplitButton";
             this.toolStripSplitButton1.ButtonClick += new System.EventHandler(this.toolStripSplitButton1_ButtonClick);
+            // 
+            // toolStripStatusLbl
+            // 
+            this.toolStripStatusLbl.BackColor = System.Drawing.Color.White;
+            this.toolStripStatusLbl.Name = "toolStripStatusLbl";
+            this.toolStripStatusLbl.Size = new System.Drawing.Size(127, 21);
+            this.toolStripStatusLbl.Text = "toolStripStatusLbl";
             // 
             // BillCalculator
             // 
@@ -340,6 +349,7 @@
             this.Name = "BillCalculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Restaurant Bill Calculator";
+            this.Load += new System.EventHandler(this.BillCalculator_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -367,6 +377,7 @@
         private System.Windows.Forms.Label yourBillLbl;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLbl;
     }
 }
 

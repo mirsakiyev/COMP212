@@ -175,5 +175,10 @@ namespace Exercise
         {
             System.Diagnostics.Process.Start("https://github.com/mirsakiyev/COMP212/tree/master/COMP212-Assignment_2");
         }
+
+        private void BillCalculator_Load(object sender, EventArgs e)
+        {
+            toolStripStatusLbl.Text = "© Copyrights - Aslan Mirsakiyev";
+        }
     }
 }

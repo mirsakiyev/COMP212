@@ -8,6 +8,7 @@ namespace Exercise_2
 {
     static class Program
     {
+        public static UserInfo user = new UserInfo();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,7 @@ namespace Exercise_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new userControlForm());
+            Application.Run(new UserControl());
         }
     }
 }
