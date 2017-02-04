@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercise
+namespace Exercise_1
 {
     static class Program
     {
+        public static Variables variables = new Variables();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
