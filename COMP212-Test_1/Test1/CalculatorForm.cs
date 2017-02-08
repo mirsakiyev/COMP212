@@ -14,12 +14,13 @@ namespace Test1
     {
         // TODO: Implement Delegates
 
-        //public delegate void CalculateDel();
+        public delegate void Calculate();
         //public static event CalculateDel calculate = null;
-
+        Calculate calMethod;
         public CalculatorForm()
         {
             InitializeComponent();
+            calMethod = new Calculate(CalculateDel);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -74,32 +75,8 @@ namespace Test1
 
         private void buttonEqual_Click(object sender, EventArgs e)
         {
-            Program.variables.Value_2 = double.Parse(resultTextBox.Text);
-            switch (Program.variables.Sing)
-            {
-                case "+":
-                    Program.variables.Result = Program.variables.Value_1 + Program.variables.Value_2;
-                    resultTextBox.Text = Program.variables.Result.ToString();
-                    break;
-
-                case "-":
-                    Program.variables.Result = Program.variables.Value_1 - Program.variables.Value_2;
-                    resultTextBox.Text = Program.variables.Result.ToString();
-                    break;
-
-                case "*":
-                    Program.variables.Result = Program.variables.Value_1 * Program.variables.Value_2;
-                    resultTextBox.Text = Program.variables.Result.ToString();
-                    break;
-
-                case "/":
-                    Program.variables.Result = Program.variables.Value_1 / Program.variables.Value_2;
-                    resultTextBox.Text = Program.variables.Result.ToString();
-                    break;
-
-                default:
-                    break;
-            }         
+            Program.variables.Value_2 = double.Parse(resultTextBox.Text);        
+            calMethod();
         }
 
         private void buttonMinus_Click(object sender, EventArgs e)
@@ -206,6 +183,35 @@ namespace Test1
         {
             AboutBox aboutBox = new AboutBox();
             aboutBox.Show();
+        }
+
+        public void CalculateDel()
+        {
+            switch (Program.variables.Sing)
+            {
+                case "+":
+                    Program.variables.Result = Program.variables.Value_1 + Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
+                    break;
+
+                case "-":
+                    Program.variables.Result = Program.variables.Value_1 - Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
+                    break;
+
+                case "*":
+                    Program.variables.Result = Program.variables.Value_1 * Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
+                    break;
+
+                case "/":
+                    Program.variables.Result = Program.variables.Value_1 / Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
+                    break;
+
+                default:
+                    break;
+            }
         }
     }
 }
