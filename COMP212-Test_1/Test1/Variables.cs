@@ -8,9 +8,9 @@ namespace Test1
 {
     public class Variables
     {
-        public string sing { get; set; }
-        public double value_1 { get; set; }
-        public double value_2 { get; set; }
-        public double result { get; set; }
+        public string Sing { get; set; }
+        public double Value_1 { get; set; }
+        public double Value_2 { get; set; }
+        public double Result { get; set; }
     }
 }

@@ -12,7 +12,8 @@ namespace Test1
 {
     public partial class CalculatorForm : Form
     {
-        
+        // TODO: Implement Delegates
+
         //public delegate void CalculateDel();
         //public static event CalculateDel calculate = null;
 
@@ -73,27 +74,27 @@ namespace Test1
 
         private void buttonEqual_Click(object sender, EventArgs e)
         {
-            Program.variables.value_2 = double.Parse(resultTextBox.Text);
-            switch (Program.variables.sing)
+            Program.variables.Value_2 = double.Parse(resultTextBox.Text);
+            switch (Program.variables.Sing)
             {
                 case "+":
-                    Program.variables.result = Program.variables.value_1 + Program.variables.value_2;
-                    resultTextBox.Text = Program.variables.result.ToString();
+                    Program.variables.Result = Program.variables.Value_1 + Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
                     break;
 
                 case "-":
-                    Program.variables.result = Program.variables.value_1 - Program.variables.value_2;
-                    resultTextBox.Text = Program.variables.result.ToString();
+                    Program.variables.Result = Program.variables.Value_1 - Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
                     break;
 
                 case "*":
-                    Program.variables.result = Program.variables.value_1 * Program.variables.value_2;
-                    resultTextBox.Text = Program.variables.result.ToString();
+                    Program.variables.Result = Program.variables.Value_1 * Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
                     break;
 
                 case "/":
-                    Program.variables.result = Program.variables.value_1 / Program.variables.value_2;
-                    resultTextBox.Text = Program.variables.result.ToString();
+                    Program.variables.Result = Program.variables.Value_1 / Program.variables.Value_2;
+                    resultTextBox.Text = Program.variables.Result.ToString();
                     break;
 
                 default:
@@ -105,8 +106,8 @@ namespace Test1
         {
             try
             {
-                Program.variables.sing = "-";
-                Program.variables.value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.Sing = "-";
+                Program.variables.Value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -119,8 +120,8 @@ namespace Test1
         {
             try
             {
-                Program.variables.sing = "+";
-                Program.variables.value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.Sing = "+";
+                Program.variables.Value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -134,8 +135,8 @@ namespace Test1
         {
             try
             {
-                Program.variables.sing = "*";
-                Program.variables.value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.Sing = "*";
+                Program.variables.Value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -149,8 +150,8 @@ namespace Test1
         {
             try
             {
-                Program.variables.sing = "/";
-                Program.variables.value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.Sing = "/";
+                Program.variables.Value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -168,8 +169,8 @@ namespace Test1
         private void clearBtn_Click(object sender, EventArgs e)
         {
             resultTextBox.Clear();
-            Program.variables.value_1 = 0;
-            Program.variables.value_2 = 0;
+            Program.variables.Value_1 = 0;
+            Program.variables.Value_2 = 0;
         }
 
         private void toolStripDropDownButton1_Click(object sender, EventArgs e)
