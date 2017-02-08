@@ -12,15 +12,8 @@ namespace Test1
 {
     public partial class CalculatorForm : Form
     {
-        // initialize variables
-        string sign;
-        double value_1;
-        double value_2;
         
-        // Declare Delegate
         //public delegate void CalculateDel();
-
-        // Declare an instance variable which is a Delegate object 
         //public static event CalculateDel calculate = null;
 
         public CalculatorForm()
@@ -80,28 +73,27 @@ namespace Test1
 
         private void buttonEqual_Click(object sender, EventArgs e)
         {
-            value_2 = double.Parse(resultTextBox.Text);
-            double result;
-            switch (sign)
+            Program.variables.value_2 = double.Parse(resultTextBox.Text);
+            switch (Program.variables.sing)
             {
                 case "+":
-                    result = value_1 + value_2;
-                    resultTextBox.Text = result.ToString();
+                    Program.variables.result = Program.variables.value_1 + Program.variables.value_2;
+                    resultTextBox.Text = Program.variables.result.ToString();
                     break;
 
                 case "-":
-                    result = value_1 - value_2;
-                    resultTextBox.Text = result.ToString();
+                    Program.variables.result = Program.variables.value_1 - Program.variables.value_2;
+                    resultTextBox.Text = Program.variables.result.ToString();
                     break;
 
                 case "*":
-                    result = value_1 * value_2;
-                    resultTextBox.Text = result.ToString();
+                    Program.variables.result = Program.variables.value_1 * Program.variables.value_2;
+                    resultTextBox.Text = Program.variables.result.ToString();
                     break;
 
                 case "/":
-                    result = value_1 / value_2;
-                    resultTextBox.Text = result.ToString();
+                    Program.variables.result = Program.variables.value_1 / Program.variables.value_2;
+                    resultTextBox.Text = Program.variables.result.ToString();
                     break;
 
                 default:
@@ -113,8 +105,8 @@ namespace Test1
         {
             try
             {
-                sign = "-";
-                value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.sing = "-";
+                Program.variables.value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -127,8 +119,8 @@ namespace Test1
         {
             try
             {
-                sign = "+";
-                value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.sing = "+";
+                Program.variables.value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -142,8 +134,8 @@ namespace Test1
         {
             try
             {
-                sign = "*";
-                value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.sing = "*";
+                Program.variables.value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -157,8 +149,8 @@ namespace Test1
         {
             try
             {
-                sign = "/";
-                value_1 = double.Parse(resultTextBox.Text);
+                Program.variables.sing = "/";
+                Program.variables.value_1 = double.Parse(resultTextBox.Text);
                 resultTextBox.Text = "";
             }
             catch (Exception ex)
@@ -176,8 +168,8 @@ namespace Test1
         private void clearBtn_Click(object sender, EventArgs e)
         {
             resultTextBox.Clear();
-            value_1 = 0;
-            value_2 = 0;
+            Program.variables.value_1 = 0;
+            Program.variables.value_2 = 0;
         }
 
         private void toolStripDropDownButton1_Click(object sender, EventArgs e)

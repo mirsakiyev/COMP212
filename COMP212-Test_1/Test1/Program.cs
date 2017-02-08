@@ -8,6 +8,7 @@ namespace Test1
 {
     public static class Program
     {
+        public static Variables variables = new Variables();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
