@@ -12,10 +12,9 @@ namespace Test1
 {
     public partial class CalculatorForm : Form
     {
-        // TODO: Implement Delegates
 
         public delegate void Calculate();
-        //public static event CalculateDel calculate = null;
+
         Calculate calMethod;
         public CalculatorForm()
         {
@@ -212,6 +211,11 @@ namespace Test1
                 default:
                     break;
             }
+        }
+
+        private void CalculatorForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
