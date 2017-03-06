@@ -49,6 +49,10 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.playerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.searchBtn = new System.Windows.Forms.Button();
+            this.playerTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.displayAllBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.playerBindingNavigator)).BeginInit();
             this.playerBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.playerDataGridView)).BeginInit();
@@ -193,7 +197,7 @@
             this.playerDataGridView.Location = new System.Drawing.Point(22, 54);
             this.playerDataGridView.Name = "playerDataGridView";
             this.playerDataGridView.RowTemplate.Height = 24;
-            this.playerDataGridView.Size = new System.Drawing.Size(652, 294);
+            this.playerDataGridView.Size = new System.Drawing.Size(652, 245);
             this.playerDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -224,11 +228,51 @@
             // 
             this.playerBindingSource.DataSource = typeof(Baseball_Example.Player);
             // 
+            // searchBtn
+            // 
+            this.searchBtn.Location = new System.Drawing.Point(200, 343);
+            this.searchBtn.Name = "searchBtn";
+            this.searchBtn.Size = new System.Drawing.Size(75, 32);
+            this.searchBtn.TabIndex = 2;
+            this.searchBtn.Text = "Search";
+            this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
+            // 
+            // playerTextBox
+            // 
+            this.playerTextBox.Location = new System.Drawing.Point(200, 304);
+            this.playerTextBox.Name = "playerTextBox";
+            this.playerTextBox.Size = new System.Drawing.Size(166, 22);
+            this.playerTextBox.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(49, 309);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(144, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Search by Last Name";
+            // 
+            // displayAllBtn
+            // 
+            this.displayAllBtn.Location = new System.Drawing.Point(281, 343);
+            this.displayAllBtn.Name = "displayAllBtn";
+            this.displayAllBtn.Size = new System.Drawing.Size(85, 32);
+            this.displayAllBtn.TabIndex = 5;
+            this.displayAllBtn.Text = "Display All";
+            this.displayAllBtn.UseVisualStyleBackColor = true;
+            this.displayAllBtn.Click += new System.EventHandler(this.displayAllBtn_Click);
+            // 
             // BaseballForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(752, 387);
+            this.Controls.Add(this.displayAllBtn);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.playerTextBox);
+            this.Controls.Add(this.searchBtn);
             this.Controls.Add(this.playerDataGridView);
             this.Controls.Add(this.playerBindingNavigator);
             this.Name = "BaseballForm";
@@ -265,6 +309,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.Button searchBtn;
+        private System.Windows.Forms.TextBox playerTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button displayAllBtn;
     }
 }
 
