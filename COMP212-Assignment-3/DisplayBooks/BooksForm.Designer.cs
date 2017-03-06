@@ -54,6 +54,8 @@
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sortbyTitle = new System.Windows.Forms.Button();
+            this.sortLNthenFNBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.authorBindingNavigator)).BeginInit();
             this.authorBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.authorBindingSource)).BeginInit();
@@ -268,11 +270,33 @@
             this.dataGridViewTextBoxColumn7.HeaderText = "Copyright";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             // 
+            // sortbyTitle
+            // 
+            this.sortbyTitle.Location = new System.Drawing.Point(503, 246);
+            this.sortbyTitle.Name = "sortbyTitle";
+            this.sortbyTitle.Size = new System.Drawing.Size(160, 30);
+            this.sortbyTitle.TabIndex = 3;
+            this.sortbyTitle.Text = "Sort by Title";
+            this.sortbyTitle.UseVisualStyleBackColor = true;
+            this.sortbyTitle.Click += new System.EventHandler(this.sortbyTitle_Click);
+            // 
+            // sortLNthenFNBtn
+            // 
+            this.sortLNthenFNBtn.Location = new System.Drawing.Point(29, 246);
+            this.sortLNthenFNBtn.Name = "sortLNthenFNBtn";
+            this.sortLNthenFNBtn.Size = new System.Drawing.Size(196, 30);
+            this.sortLNthenFNBtn.TabIndex = 4;
+            this.sortLNthenFNBtn.Text = "Sort by LN, then by FN";
+            this.sortLNthenFNBtn.UseVisualStyleBackColor = true;
+            this.sortLNthenFNBtn.Click += new System.EventHandler(this.sortLNthenFNBtn_Click);
+            // 
             // BooksForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1143, 527);
+            this.ClientSize = new System.Drawing.Size(1143, 302);
+            this.Controls.Add(this.sortLNthenFNBtn);
+            this.Controls.Add(this.sortbyTitle);
             this.Controls.Add(this.titleDataGridView);
             this.Controls.Add(this.authorDataGridView);
             this.Controls.Add(this.authorBindingNavigator);
@@ -317,6 +341,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.Button sortbyTitle;
+        private System.Windows.Forms.Button sortLNthenFNBtn;
     }
 }
 
