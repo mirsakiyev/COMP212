@@ -1,0 +1,10 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\bin\Debug\COMP212-Week05-CreateDatabaseConsole.exe.config
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\bin\Debug\COMP212-Week05-CreateDatabaseConsole.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\bin\Debug\COMP212-Week05-CreateDatabaseConsole.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\obj\Debug\COMP212-Week05-CreateDatabaseConsole.csprojResolveAssemblyReference.cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\obj\Debug\COMP212-Week05-CreateDatabaseConsole.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\obj\Debug\COMP212-Week05-CreateDatabaseConsole.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\bin\Debug\EntityFramework.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\bin\Debug\EntityFramework.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Week05-CreateDatabaseConsole\COMP212-Week05-CreateDatabaseConsole\bin\Debug\EntityFramework.SqlServer.xml

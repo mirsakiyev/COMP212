@@ -1,0 +1,12 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\Books.mdf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\Books_log.ldf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\EntityFramework.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\EntityFramework.SqlServer.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\EntityFramework.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\EntityFramework.SqlServer.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\obj\Debug\Books Example.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\obj\Debug\Books Example.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\Books Example.dll.config
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\Books Example.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\bin\Debug\Books Example.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Assignment-3\Books Example\obj\Debug\Books Example.csprojResolveAssemblyReference.cache

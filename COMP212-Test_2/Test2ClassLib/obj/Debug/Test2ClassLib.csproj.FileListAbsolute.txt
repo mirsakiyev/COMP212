@@ -1,0 +1,12 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\SMS.mdf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\SMS_log.ldf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\EntityFramework.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\EntityFramework.SqlServer.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\EntityFramework.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\EntityFramework.SqlServer.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\obj\Debug\Test2ClassLib.csprojResolveAssemblyReference.cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\obj\Debug\Test2ClassLib.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\obj\Debug\Test2ClassLib.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\Test2ClassLib.dll.config
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\Test2ClassLib.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\Test2ClassLib\bin\Debug\Test2ClassLib.pdb

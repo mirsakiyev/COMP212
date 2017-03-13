@@ -1,0 +1,12 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\Books.mdf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\Books_log.ldf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\BooksExample.dll.config
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\BooksExample.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\BooksExample.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\EntityFramework.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\EntityFramework.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\obj\Debug\BooksExample.csprojResolveAssemblyReference.cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\obj\Debug\BooksExample.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\BooksExample\obj\Debug\BooksExample.pdb

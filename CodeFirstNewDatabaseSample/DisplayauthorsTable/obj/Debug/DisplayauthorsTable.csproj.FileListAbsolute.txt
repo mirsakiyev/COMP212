@@ -1,0 +1,17 @@
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\DisplayauthorsTable.exe.config
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\DisplayauthorsTable.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\DisplayauthorsTable.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\EntityFramework.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\EntityFramework.SqlServer.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\EntityFramework.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\EntityFramework.SqlServer.xml
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\obj\Debug\DisplayauthorsTable.csprojResolveAssemblyReference.cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\obj\Debug\DisplayauthorsTable.Properties.Resources.resources
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\obj\Debug\DisplayauthorsTable.csproj.GenerateResource.Cache
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\obj\Debug\DisplayauthorsTable.exe
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\obj\Debug\DisplayauthorsTable.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\Books.mdf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\Books_log.ldf
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\BooksExample.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\bin\Debug\BooksExample.pdb
+C:\College\4th Semester(Winter 2017)\COMP-212-001\CodeFirstNewDatabaseSample\DisplayauthorsTable\obj\Debug\DisplayauthorsTable.Form1.resources
