@@ -34,6 +34,8 @@
             this.courseLbl = new System.Windows.Forms.Label();
             this.idTextBox = new System.Windows.Forms.TextBox();
             this.coursesComboBox = new System.Windows.Forms.ComboBox();
+            this.registerBtn = new System.Windows.Forms.Button();
+            this.backBtn = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +46,7 @@
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 354);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(642, 25);
+            this.statusStrip1.Size = new System.Drawing.Size(599, 25);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -66,7 +68,7 @@
             // courseLbl
             // 
             this.courseLbl.AutoSize = true;
-            this.courseLbl.Location = new System.Drawing.Point(79, 154);
+            this.courseLbl.Location = new System.Drawing.Point(76, 123);
             this.courseLbl.Name = "courseLbl";
             this.courseLbl.Size = new System.Drawing.Size(53, 17);
             this.courseLbl.TabIndex = 2;
@@ -76,22 +78,43 @@
             // 
             this.idTextBox.Location = new System.Drawing.Point(223, 70);
             this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(128, 22);
+            this.idTextBox.Size = new System.Drawing.Size(236, 22);
             this.idTextBox.TabIndex = 3;
             // 
             // coursesComboBox
             // 
             this.coursesComboBox.FormattingEnabled = true;
-            this.coursesComboBox.Location = new System.Drawing.Point(223, 145);
+            this.coursesComboBox.Location = new System.Drawing.Point(220, 114);
             this.coursesComboBox.Name = "coursesComboBox";
-            this.coursesComboBox.Size = new System.Drawing.Size(128, 24);
+            this.coursesComboBox.Size = new System.Drawing.Size(239, 24);
             this.coursesComboBox.TabIndex = 4;
+            // 
+            // registerBtn
+            // 
+            this.registerBtn.Location = new System.Drawing.Point(374, 192);
+            this.registerBtn.Name = "registerBtn";
+            this.registerBtn.Size = new System.Drawing.Size(85, 34);
+            this.registerBtn.TabIndex = 5;
+            this.registerBtn.Text = "Register";
+            this.registerBtn.UseVisualStyleBackColor = true;
+            // 
+            // backBtn
+            // 
+            this.backBtn.Location = new System.Drawing.Point(223, 192);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(75, 33);
+            this.backBtn.TabIndex = 6;
+            this.backBtn.Text = "Back";
+            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
             // 
             // RegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 379);
+            this.ClientSize = new System.Drawing.Size(599, 379);
+            this.Controls.Add(this.backBtn);
+            this.Controls.Add(this.registerBtn);
             this.Controls.Add(this.coursesComboBox);
             this.Controls.Add(this.idTextBox);
             this.Controls.Add(this.courseLbl);
@@ -116,5 +139,7 @@
         private System.Windows.Forms.Label courseLbl;
         private System.Windows.Forms.TextBox idTextBox;
         private System.Windows.Forms.ComboBox coursesComboBox;
+        private System.Windows.Forms.Button registerBtn;
+        private System.Windows.Forms.Button backBtn;
     }
 }

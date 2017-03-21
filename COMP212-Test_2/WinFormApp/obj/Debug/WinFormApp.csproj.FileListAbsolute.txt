@@ -14,3 +14,5 @@ C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\WinFormApp\obj\
 C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\WinFormApp\obj\Debug\WinFormApp.pdb
 C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\WinFormApp\obj\Debug\WinFormApp.LoginForm.resources
 C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\WinFormApp\obj\Debug\WinFormApp.RegistrationForm.resources
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\WinFormApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\College\4th Semester(Winter 2017)\COMP-212-001\COMP212-Test_2\WinFormApp\bin\Debug\EntityFramework.SqlServer.xml

@@ -8,6 +8,7 @@ namespace WinFormApp
 {
     static class Program
     {
+        public static RegistrationForm regForm = new RegistrationForm();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
