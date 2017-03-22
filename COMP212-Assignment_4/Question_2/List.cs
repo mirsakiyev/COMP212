@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace Question_2
 {
@@ -135,6 +136,23 @@ namespace Question_2
                 }
 
                 Console.WriteLine("\n");
+            }
+
+            
+        }
+        public void Sort()
+        {
+            ArrayList arrayList = new ArrayList();
+            while (IsEmpty() != true)
+            {
+                arrayList.Add(this.RemoveFromFront());          
+            }
+
+            arrayList.Sort();
+
+            foreach (int item in arrayList)
+            {
+                InsertAtBack(item);
             }
         }
     }

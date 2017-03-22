@@ -31,7 +31,7 @@ namespace Question_1
             Console.WriteLine(peek);
             Console.WriteLine(separator);
 
-            Console.WriteLine("Elements in the stack after lego.Pop(): ");
+            Console.WriteLine("Element that got removed from the stack after lego.Pop(): ");
             Console.WriteLine(lego.Pop()); // Removes and returns the object at the top of the Stack.
             Console.WriteLine(separator);
 
