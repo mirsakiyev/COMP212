@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Aslan Mirsakiyev
+ * 23 March 2017
+ * Assignment 4 - Question 1
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +15,7 @@ namespace Question_1
     {
         static void Main(string[] args)
         {
-            string separator = "------------------------------------------------";
+            string separator = "---------------------------------------------------------";
             // Create stack called lego
             Stack<string> lego = new Stack<string>();         
             // After adding the first brick we cannot remove it
@@ -56,7 +61,7 @@ namespace Question_1
             Console.WriteLine(separator);
 
             Console.WriteLine("Elements in the queue after queue.Dequeue():");
-            queue.Dequeue();//removes the front item
+            queue.Dequeue();//removes the front item from the queue
             foreach (var item in queue.ToArray())
             {
                 Console.WriteLine(item);

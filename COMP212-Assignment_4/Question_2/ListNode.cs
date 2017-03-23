@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Aslan Mirsakiyev
+ * 23 March 2017
+ * Assignment 4 - Question 2
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
