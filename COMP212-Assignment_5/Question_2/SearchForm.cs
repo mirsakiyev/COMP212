@@ -12,34 +12,33 @@ namespace Question_2
 {
     public partial class SearchForm : Form
     {
+        // initialization 
         Random random;
         int[] intVal = new int[5];
         double[] doubleVal = new double[5];        
-        string searchString;
-
+        
+        // constructor
         public SearchForm()
         {
             InitializeComponent();
             random = new Random();
-            genInt();
-            genDouble();
+            generateValues();
+            displayValues();
         }
 
-        // generate random int value
-        private void genInt()
+        // generate random int and double values
+        private void generateValues()
         {
+            // int
             intTextBox.Clear();
             for (int i = 0; i < 5; i++) intVal[i] = random.Next(1,10);
-            displayValues();
+
+            // double
+            doubleTextBox.Clear();
+            for (int i = 0; i < 5; i++) doubleVal[i] = Math.Round(random.NextDouble() * 10, 3);
+
         }
 
-        // generate random double value
-        private void genDouble()
-        {
-            doubleTextBox.Clear();
-            for (int i = 0; i < 5; i++) doubleVal[i] = Math.Round(random.NextDouble()*10,1);
-            displayValues();
-        }
 
         // display int and double values into textboxes
         private void displayValues()
@@ -50,8 +49,9 @@ namespace Question_2
 
         private void randomBtn_Click(object sender, EventArgs e)
         {
-            genInt();
-            genDouble();
+            generateValues();
+            displayValues();
+            searchTextBox.Focus();
         }
 
         // method to search value with IComparable
@@ -59,14 +59,12 @@ namespace Question_2
         {
             int intIndex = -1;
             int a = 0;
-
             foreach (var i in array)
             {
                 if (searchVal.CompareTo(i) > 0)
                 {
                     intIndex = a;
-                    break;
-                }
+                }                
                 a++;
             }
             return intIndex;
@@ -74,23 +72,33 @@ namespace Question_2
 
         private void searchBtn_Click(object sender, EventArgs e)
         {
-            try
+            if (searchTextBox.Text=="")
             {
-                searchString = searchTextBox.Text;
-                int index = search<int>(int.Parse(searchString), intVal);
-                if (index == -1)
-                {
-                    MessageBox.Show("Couldnt find value "+ searchString + " in int array");
-                }
-                else
-                {
-                    MessageBox.Show(searchString + " int array, index: " + index);
-                }
+                MessageBox.Show("Please enter any value");
+                searchTextBox.Focus();
             }
-            catch (Exception error)
+            else
             {
-                MessageBox.Show(error.Message);
-            }           
+                try
+                {
+                    string searchString = searchTextBox.Text;
+                    int index = search<int>(int.Parse(searchString), intVal);
+
+                    if (index == -1) MessageBox.Show("Couldnt find value: " + searchString + " in int array");
+                    else MessageBox.Show(searchString + " int array, index: " + index);
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show(error.Message);
+                }
+            }                  
+        }
+
+        private void SearchForm_Load(object sender, EventArgs e)
+        {
+            statusStrip.Text = "© Copyrights - Aslan Mirsakiyev #300850326";
+            searchTextBox.Clear();
+            searchTextBox.Focus();
         }
     }
 }

@@ -1,6 +1,0 @@
-C:\College\4th Semester(Winter 2017)\COMP-212-001\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\College\4th Semester(Winter 2017)\COMP-212-001\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\College\4th Semester(Winter 2017)\COMP-212-001\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\College\4th Semester(Winter 2017)\COMP-212-001\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
-C:\College\4th Semester(Winter 2017)\COMP-212-001\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-C:\College\4th Semester(Winter 2017)\COMP-212-001\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
